@@ -1,0 +1,341 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1140px; 
+    margin: 0 auto;
+}
+
+.promo {
+    height: 800px;
+    background: url('../img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+h1.title {
+
+    color: #F9BF3B;
+    font-weight: 900;
+    font-size: 41px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 53px;
+}
+
+.simple .title_big {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20.5px;
+}
+
+h2.title {
+    color: #F9BF3B;
+    font-weight: 900;
+    font-size: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20.5px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 27,5px;
+}
+
+.promo .promo_text span{
+    color: #F9BF3B;
+    font-weight: 700;
+}
+
+.promo .promo_btn, .intencive .intencive_btn {
+    display: block;
+    margin: 67px auto;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.4);
+    border: 4px solid rgba(0, 0, 0, 0.18);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    font-weight: 400;
+    font-size: 21px;
+    cursor: pointer;
+    outline:none ;
+}
+
+.more .more_txt {
+    display: block;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 70px;
+
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    min-height: 604px;
+    background: #EFEFEF;
+    padding: 85px 0 75px 0;
+
+}
+
+.waiting .waiting_header, .finish .finish_header  {
+    margin: 0 auto;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.finish .finish_header {
+    color: #FFFFFF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    margin: 0 auto;
+    width: 220px;
+    height: 7px;
+    left: 851px;
+    background: #F9BF3B;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    margin: 0 auto;
+    font-size: 23px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 18.5px;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45.5px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    vertical-align: top;
+    width: 352px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.optimization {
+    min-height: 547px;
+    padding: 108px 0 74px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299CBD;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform:uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4A4A4A;
+    font-size: 17px;
+    vertical-align: Center;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 68.5px 0;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+.finish .finish_wrapper .finish_item .finish_around{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background-color: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_txt {
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.intencive {
+    min-height: 631px;
+    padding: 85px 0 88px 0;
+    background-color: #EFEFEF;
+}
+
+.intencive .intencive_gift {
+    display: block;
+    margin: 0 auto;
+}
+
+.intencive .intencive_descr {
+    margin-top: 45px;
+    padding: 0 13px;
+    color: #252525;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.webinar {
+    height: 512px;
+    padding-top: 81px;
+}
+
+.webinar .webinar_img {
+   display: block;
+    margin: 0 auto;
+}
+
+.webinar .webinar_subheader {
+    margin-top: 36px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #252525;
+}
+
+.webinar .webinar_imp {
+    margin-top: 30px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #299CBD;
+}
+
+.webinar .webinar_descr {
+    margin-top: 24.5px;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+footer {
+    min-height: 166px;
+    background: #1A1A1A;
+    padding: 57px 0 69px 0;
+}
+
+footer .contacts a {
+    margin: 0 auto;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: underline;
+}
+
+footer .container {
+    margin: 0 auto;
+    width: 377px;
+    text-align: center;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+footer .phone a {
+    text-decoration: none;
+    color: #888888;
+}
+
+
+
